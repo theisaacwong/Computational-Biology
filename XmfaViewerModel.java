@@ -1,5 +1,12 @@
 package org.gel.mauve;
 
+/**
+* outputs orthologous/homologous/paralog coordinates between 
+* individuals read from a file using Mauve's alignment algorithm
+* instead of clicking through the GUI
+*
+*/
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
