@@ -17,7 +17,7 @@ parser.add_argument("--trim2", help="how many ending monomers to initially ignor
 args = parser.parse_args()
 
 #  example args
-#  args = parser.parse_args(["dmau_Xchrom_1.688_f.dist", "dmau_f_x_1.688.tquantileMapping1.2.pysv", "--min", "3", "--q1", ".15", "--q2", ".85", "-o", "dmau_x_1.688_q15_q85_f3_01.txt"])
+#  args = parser.parse_args(["dmau_Xchrom_1.688_f.dist", "dmau_f_x_1.688.tsv", "--min", "3", "--q1", ".15", "--q2", ".85", "-o", "dmau_x_1.688_q15_q85_f3_01.txt"])
 
 leadingTrim = args.trim1
 laggingTrim = args.trim2
